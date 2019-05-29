@@ -209,7 +209,7 @@ img {
 .website-wrapper-services {
   width: 880px;
   z-index: 1;
-  margin: 25px auto 0 auto;
+  margin: 0px auto 0 auto;
 }
 
 header {
@@ -312,6 +312,7 @@ footer p {
 footer {
 	text-align: left;
 	margin-top: 50px;
+	border-top:1px solid black;
 }
 
 main {
@@ -336,4 +337,31 @@ button {
 	padding-left: 25px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+li {
+	list-style: square inside;
+}
+
+ul {
+	margin-top: 25px;
+}
+
+.section-top {
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.section-bottom {
+	height: 300px;
+	width: 47%;
+	padding-top: 30px;
+}
+
+.service-footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
 }
