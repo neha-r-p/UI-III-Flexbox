@@ -208,7 +208,7 @@ img {
 
 .website-wrapper {
   width: 880px;
-  margin: 130px auto 0 auto;
+  margin: 30px auto 0 auto;
   z-index: 1;
 }
 .website-wrapper-services {
@@ -218,15 +218,21 @@ img {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid black;
   position: relative;
   height: 490px;
 }
 
 header div {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  margin: 70px 0 0 85px;
+  align-items: center;
+  margin: 0;
+  width: 47%;
 }
 
 header div h1 {
@@ -242,23 +248,25 @@ header div a {
   text-decoration: none;
   color: black;
   border: 1px solid black;
-  padding: 4px 48px;
+  width: 150px;
+  padding: 4px 20px;
 }
 
 header img {
-  display: inline-block;
+  margin: 0px;
   position: absolute;
   right: 0;
 }
 
 .section-one {
   margin-top: 39px;
+  justify-content: space-between;
+  display: flex;
 }
 
 .section-one div {
   width: 430px;
   height: 100px;
-  display: inline-block;
 }
 
 .section-one div p {
@@ -274,13 +282,14 @@ header img {
 }
 
 .section-two {
+  display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid black;
   margin-top: 36px;
   padding-bottom: 47px;
 }
 
 .section-two div {
-  display: inline-block;
   width: 280px;
   margin-right: 10px;
 }
@@ -291,15 +300,20 @@ header img {
 
 address {
   margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 address div {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
   line-height: 1.16;
 }
 
 address div span {
-  display: inline-block;
-  margin: 17px 0 18px 0;
+	 margin: 17px 0 18px 0;
 }
 
 footer {
