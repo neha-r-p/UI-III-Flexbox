@@ -324,6 +324,7 @@ footer {
 
 footer p {
   margin-top: 54px;
+  margin-bottom: 100px;
   font-size: 14px;
   text-align: center;
 }
@@ -346,7 +347,7 @@ main section {
 	width: 47%;
 	border: 1px solid black;
 	padding: 20px;
-	background: ivory;
+	background: lavenderblush;
 }
 
 button {
@@ -384,4 +385,5 @@ ul {
 	justify-content: space-between;
 	align-items: flex-start;
 	border-top:1px solid black;
+	padding-top: 30px;
 }
